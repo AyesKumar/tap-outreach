@@ -1,0 +1,231 @@
+{
+    "type": ["null", "object"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": ["null", "integer"]
+      },
+      "attributes": {
+          "automationPercentage": {
+            "type": ["null", "number"]
+          },
+          "bounceCount": {
+            "type": ["null", "integer"]
+          },
+          "clickCount": {
+            "type": ["null", "integer"]
+          },
+          "createdAt": {
+            "type": ["null", "date-time"]
+          },
+          "deliverCount": {
+            "type": ["null", "integer"]
+          },
+          "description": {
+            "type": ["null", "string"]
+          },
+          "durationInDays": {
+            "type": ["null", "integer"]
+          },
+          "enabled": {
+            "type": ["null", "boolean"]
+          },
+          "enabledAt": {
+            "type": ["null", "date-time"]
+          },
+          "failureCount": {
+            "type": ["null", "integer"]
+          },
+          "finishOnReply": {
+            "type": ["null", "boolean"]
+          },
+          "lastUsedAt": {
+            "type": ["null", "date-time"]
+          },
+          "locked": {
+            "type": ["null", "boolean"]
+          },
+          "lockedAt": {
+            "type": ["null", "date-time"]
+          },
+          "maxActivations": {
+            "type": ["null", "integer"]
+          },
+          "name": {
+            "type": ["null", "string"]
+          },
+          "negativeReplyCount": {
+            "type": ["null", "integer"]
+          },
+          "neutralReplyCount": {
+            "type": ["null", "integer"]
+          },
+          "numContactedProspects": {
+            "type": ["null", "integer"]
+          },
+          "numRepliedProspects": {
+            "type": ["null", "integer"]
+          },
+          "openCount": {
+            "type": ["null", "integer"]
+          },
+          "optOutCount": {
+            "type": ["null", "integer"]
+          },
+          "positiveReplyCount": {
+            "type": ["null", "integer"]
+          },
+          "primaryReplyAction": {
+            "type": ["null", "string"]
+          },
+          "primaryReplyPauseDuration": {
+            "type": ["null", "integer"]
+          },
+          "replyCount": {
+            "type": ["null", "integer"]
+          },
+          "scheduleCount": {
+            "type": ["null", "integer"]
+          },
+          "scheduleIntervalType": {
+            "type": ["null", "string"]
+          },
+          "secondaryReplyAction": {
+            "type": ["null", "string"]
+          },
+          "secondaryReplyPauseDuration": {
+            "type": ["null", "integer"]
+          },
+          "sequenceStepCount": {
+            "type": ["null", "integer"]
+          },
+          "sequenceType": {
+            "type": ["null", "string"]
+          },
+          "shareType": {
+            "type": ["null", "string"]
+          },
+          "tags": {
+            "type": ["null", "string"]
+          },
+          "throttleCapacity": {
+            "type": ["null", "integer"]
+          },
+          "throttleMaxAddsPerDay": {
+            "type": ["null", "integer"]
+          },
+          "throttlePaused": {
+            "type": ["null", "boolean"]
+          },
+          "throttlePausedAt": {
+            "type": ["null", "date-time"]
+          },
+          "updatedAt": {
+            "type": ["null", "date-time"]
+          }
+      },
+      "relationships": {
+          "calls": {
+              "links": {
+                  "related": {
+                    "type": ["null", "string"]
+                  }
+              }
+          },
+          "contentCategoryMemberships": {
+              "data": [],
+              "links": {
+                  "related": {
+                    "type": ["null", "string"]
+                  }
+              },
+              "meta": {
+                  "count": {
+                    "type": ["null", "integer"]
+                  }
+              }
+          },
+          "creator": {
+              "data": {
+                  "type": {
+                    "type": ["null", "string"]
+                  },
+                  "id": {
+                    "type": ["null", "integer"]
+                  }
+              }
+          },
+          "mailings": {
+              "links": {
+                  "related": {
+                    "type": ["null", "string"]
+                  }
+              }
+          },
+          "owner": {
+              "data": {
+                  "type": {
+                    "type": ["null", "string"]
+                  },
+                  "id": {
+                    "type": ["null", "integer"]
+                  }
+              }
+          },
+          "ruleset": {
+              "data": {
+                  "type": {
+                    "type": ["null", "string"]
+                  },
+                  "id": {
+                    "type": ["null", "integer"]
+                  }
+              }
+          },
+          "sequenceStates": {
+              "links": {
+                  "related": {
+                    "type": ["null", "string"]
+                  }
+              }
+          },
+          "sequenceSteps": {
+              "data": {
+                "type": ["null", "object"]
+              },
+              "links": {
+                  "related": {
+                    "type": ["null", "string"]
+                  }
+              },
+              "meta": {
+                  "count": {
+                    "type": ["null", "integer"]
+                  }
+              }
+          },
+          "tasks": {
+              "links": {
+                  "related": {
+                    "type": ["null", "string"]
+                  }
+              }
+          },
+          "updater": {
+              "data": {
+                  "type": {
+                    "type": ["null", "string"]
+                  },
+                  "id": {
+                    "type": ["null", "integer"]
+                  }
+              }
+          }
+      },
+      "links": {
+          "self": {
+            "type": ["null", "string"]
+          }
+      }
+  }
+}
