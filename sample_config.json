@@ -3,5 +3,6 @@
   "client_secret": "secret_client_secret",
   "refresh_token": "abc123",
   "start_date": "2017-11-02T00:00:00Z",
+  "redirect_uri": "redirect_uri",
   "select_fields_by_default": true
 }
