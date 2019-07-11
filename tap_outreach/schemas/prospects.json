@@ -1,6 +1,5 @@
 {
     "type": ["null", "object"],
-    "additionalProperties": false,
     "properties": {
       "id": {
         "type": ["null", "integer"]
@@ -412,7 +411,7 @@
             "type": ["null", "string"]
           }
       },
-        "relationships": {
+      "relationships": {
           "account": {
               "data": {
                   "type": {
@@ -420,12 +419,12 @@
                   },
                   "id": {
                     "type": ["null", "integer"]
-                  },
+                  }
               }
           },
           "activeSequenceStates": {
               "data": {
-                "type": ["null", "string"]
+                "type": ["null", "object"]
               },
               "links": {
                   "related": {
@@ -435,6 +434,7 @@
               "meta": {
                   "count": {
                     "type": ["null", "integer"]
+                  }
               }
           },
           "batches": {
@@ -453,25 +453,18 @@
           },
           "creator": {
               "data": {
-                "type": ["null", "string"]
+                "type": ["null", "object"]
               }
           },
           "defaultPluginMapping": {
               "data": {
-                "type": ["null", "string"]
+                "type": ["null", "object"]
               }
           },
           "emailAddresses": {
-              "data": [
-                  {
-                      "type": {
-                        "type": ["null", "string"]
-                      },
-                      "id": {
-                        "type": ["null", "integer"]
-                      }
-                  }
-              ],
+              "data": {
+                "type": ["null", "object"]
+              },
               "links": {
                   "related": {
                     "type": ["null", "string"]
@@ -532,7 +525,7 @@
           },
           "persona": {
               "data": {
-                "type": ["null", "string"]
+                "type": ["null", "object"]
               }
           },
           "phoneNumbers": {
@@ -559,7 +552,7 @@
           },
           "stage": {
               "data": {
-                "type": ["null", "string"]
+                "type": ["null", "object"]
               }
           },
           "tasks": {
@@ -571,7 +564,7 @@
           },
           "updater": {
               "data": {
-                "type": ["null", "string"]
+                "type": ["null", "object"]
               }
           }
       },
@@ -582,4 +575,3 @@
       }
     }
   }
-}
