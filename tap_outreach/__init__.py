@@ -129,6 +129,7 @@ def discover():
             'replication_key': stream.replication_key,
             'replication_method': stream.replication_method
         }
+        
         streams.append(catalog_entry)
 
     return {'streams': streams}
@@ -286,7 +287,6 @@ def main():
     # If discover flag was passed, run discovery mode and dump output to stdout
     if args.discover:
         catalog = discover()
-        print(discover())
         print(json.dumps(catalog, indent=2))
     # Otherwise run in sync mode
     else:
